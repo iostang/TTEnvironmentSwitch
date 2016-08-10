@@ -13,6 +13,13 @@
 		086CAD951D5B14AA00030068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086CAD931D5B14AA00030068 /* Main.storyboard */; };
 		086CAD971D5B14AA00030068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086CAD961D5B14AA00030068 /* Assets.xcassets */; };
 		086CAD9A1D5B14AA00030068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086CAD981D5B14AA00030068 /* LaunchScreen.storyboard */; };
+		086CADB11D5B156200030068 /* TTNetWorkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CADA31D5B156200030068 /* TTNetWorkClient.m */; };
+		086CADB21D5B156200030068 /* TTDebugView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CADA71D5B156200030068 /* TTDebugView.m */; };
+		086CADB31D5B156200030068 /* TTHUDResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 086CADAA1D5B156200030068 /* TTHUDResource.bundle */; };
+		086CADB41D5B156200030068 /* TTHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CADAC1D5B156200030068 /* TTHUDView.m */; };
+		086CADB51D5B156200030068 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CADAE1D5B156200030068 /* UIImage+GIF.m */; };
+		086CADB61D5B156200030068 /* UIView+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 086CADB01D5B156200030068 /* UIView+HUD.m */; };
+		BE57B995826A2DBB8A898FBB /* libPods-TTEnvironmentSwitch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B63AB0C822D4CAFFAA050BEC /* libPods-TTEnvironmentSwitch.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,23 @@
 		086CAD961D5B14AA00030068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		086CAD991D5B14AA00030068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		086CAD9B1D5B14AA00030068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086CADA21D5B156200030068 /* TTNetWorkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTNetWorkClient.h; sourceTree = "<group>"; };
+		086CADA31D5B156200030068 /* TTNetWorkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTNetWorkClient.m; sourceTree = "<group>"; };
+		086CADA51D5B156200030068 /* TTDebugMacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDebugMacroDefinition.h; sourceTree = "<group>"; };
+		086CADA61D5B156200030068 /* TTDebugView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDebugView.h; sourceTree = "<group>"; };
+		086CADA71D5B156200030068 /* TTDebugView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDebugView.m; sourceTree = "<group>"; };
+		086CADA91D5B156200030068 /* TTHUDConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTHUDConfig.h; sourceTree = "<group>"; };
+		086CADAA1D5B156200030068 /* TTHUDResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TTHUDResource.bundle; sourceTree = "<group>"; };
+		086CADAB1D5B156200030068 /* TTHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTHUDView.h; sourceTree = "<group>"; };
+		086CADAC1D5B156200030068 /* TTHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTHUDView.m; sourceTree = "<group>"; };
+		086CADAD1D5B156200030068 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		086CADAE1D5B156200030068 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		086CADAF1D5B156200030068 /* UIView+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HUD.h"; sourceTree = "<group>"; };
+		086CADB01D5B156200030068 /* UIView+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HUD.m"; sourceTree = "<group>"; };
+		086CADB71D5B15BE00030068 /* TTDebugSystemPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDebugSystemPrefix.pch; sourceTree = "<group>"; };
+		18651C76340F71B73281ADF4 /* Pods-TTEnvironmentSwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTEnvironmentSwitch.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTEnvironmentSwitch/Pods-TTEnvironmentSwitch.release.xcconfig"; sourceTree = "<group>"; };
+		96C9DBE098B9EB0F7C4FC9C5 /* Pods-TTEnvironmentSwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTEnvironmentSwitch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTEnvironmentSwitch/Pods-TTEnvironmentSwitch.debug.xcconfig"; sourceTree = "<group>"; };
+		B63AB0C822D4CAFFAA050BEC /* libPods-TTEnvironmentSwitch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTEnvironmentSwitch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE57B995826A2DBB8A898FBB /* libPods-TTEnvironmentSwitch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +69,8 @@
 			children = (
 				086CAD891D5B14A900030068 /* TTEnvironmentSwitch */,
 				086CAD881D5B14A900030068 /* Products */,
+				EE16C4B67EBFFC2F54B7023D /* Pods */,
+				FEF2AD497B930B34E849CF3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +85,9 @@
 		086CAD891D5B14A900030068 /* TTEnvironmentSwitch */ = {
 			isa = PBXGroup;
 			children = (
+				086CADA11D5B156200030068 /* Network */,
+				086CADA41D5B156200030068 /* TTDebug */,
+				086CADA81D5B156200030068 /* TTHUD */,
 				086CAD8D1D5B14A900030068 /* AppDelegate.h */,
 				086CAD8E1D5B14A900030068 /* AppDelegate.m */,
 				086CAD901D5B14A900030068 /* ViewController.h */,
@@ -66,6 +96,7 @@
 				086CAD961D5B14AA00030068 /* Assets.xcassets */,
 				086CAD981D5B14AA00030068 /* LaunchScreen.storyboard */,
 				086CAD9B1D5B14AA00030068 /* Info.plist */,
+				086CADB71D5B15BE00030068 /* TTDebugSystemPrefix.pch */,
 				086CAD8A1D5B14A900030068 /* Supporting Files */,
 			);
 			path = TTEnvironmentSwitch;
@@ -79,6 +110,57 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		086CADA11D5B156200030068 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				086CADA21D5B156200030068 /* TTNetWorkClient.h */,
+				086CADA31D5B156200030068 /* TTNetWorkClient.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		086CADA41D5B156200030068 /* TTDebug */ = {
+			isa = PBXGroup;
+			children = (
+				086CADA51D5B156200030068 /* TTDebugMacroDefinition.h */,
+				086CADA61D5B156200030068 /* TTDebugView.h */,
+				086CADA71D5B156200030068 /* TTDebugView.m */,
+			);
+			path = TTDebug;
+			sourceTree = "<group>";
+		};
+		086CADA81D5B156200030068 /* TTHUD */ = {
+			isa = PBXGroup;
+			children = (
+				086CADA91D5B156200030068 /* TTHUDConfig.h */,
+				086CADAA1D5B156200030068 /* TTHUDResource.bundle */,
+				086CADAB1D5B156200030068 /* TTHUDView.h */,
+				086CADAC1D5B156200030068 /* TTHUDView.m */,
+				086CADAD1D5B156200030068 /* UIImage+GIF.h */,
+				086CADAE1D5B156200030068 /* UIImage+GIF.m */,
+				086CADAF1D5B156200030068 /* UIView+HUD.h */,
+				086CADB01D5B156200030068 /* UIView+HUD.m */,
+			);
+			path = TTHUD;
+			sourceTree = "<group>";
+		};
+		EE16C4B67EBFFC2F54B7023D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96C9DBE098B9EB0F7C4FC9C5 /* Pods-TTEnvironmentSwitch.debug.xcconfig */,
+				18651C76340F71B73281ADF4 /* Pods-TTEnvironmentSwitch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEF2AD497B930B34E849CF3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B63AB0C822D4CAFFAA050BEC /* libPods-TTEnvironmentSwitch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 086CAD9E1D5B14AA00030068 /* Build configuration list for PBXNativeTarget "TTEnvironmentSwitch" */;
 			buildPhases = (
+				434EBA7C03396F1A1287DF79 /* [CP] Check Pods Manifest.lock */,
 				086CAD831D5B14A900030068 /* Sources */,
 				086CAD841D5B14A900030068 /* Frameworks */,
 				086CAD851D5B14A900030068 /* Resources */,
+				2DE2BACA71548649D783B6C9 /* [CP] Embed Pods Frameworks */,
+				790413D8F5B3C5BDC09C9F51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				086CAD9A1D5B14AA00030068 /* LaunchScreen.storyboard in Resources */,
+				086CADB31D5B156200030068 /* TTHUDResource.bundle in Resources */,
 				086CAD971D5B14AA00030068 /* Assets.xcassets in Resources */,
 				086CAD951D5B14AA00030068 /* Main.storyboard in Resources */,
 			);
@@ -144,14 +230,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DE2BACA71548649D783B6C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTEnvironmentSwitch/Pods-TTEnvironmentSwitch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		434EBA7C03396F1A1287DF79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		790413D8F5B3C5BDC09C9F51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTEnvironmentSwitch/Pods-TTEnvironmentSwitch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		086CAD831D5B14A900030068 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				086CAD921D5B14A900030068 /* ViewController.m in Sources */,
+				086CADB11D5B156200030068 /* TTNetWorkClient.m in Sources */,
+				086CADB41D5B156200030068 /* TTHUDView.m in Sources */,
 				086CAD8F1D5B14A900030068 /* AppDelegate.m in Sources */,
+				086CADB61D5B156200030068 /* UIView+HUD.m in Sources */,
 				086CAD8C1D5B14A900030068 /* main.m in Sources */,
+				086CADB51D5B156200030068 /* UIImage+GIF.m in Sources */,
+				086CADB21D5B156200030068 /* TTDebugView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +402,11 @@
 		};
 		086CAD9F1D5B14AA00030068 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96C9DBE098B9EB0F7C4FC9C5 /* Pods-TTEnvironmentSwitch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TTEnvironmentSwitch/TTDebugSystemPrefix.pch;
 				INFOPLIST_FILE = TTEnvironmentSwitch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = oktangcc.TTEnvironmentSwitch;
@@ -274,8 +416,11 @@
 		};
 		086CADA01D5B14AA00030068 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18651C76340F71B73281ADF4 /* Pods-TTEnvironmentSwitch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TTEnvironmentSwitch/TTDebugSystemPrefix.pch;
 				INFOPLIST_FILE = TTEnvironmentSwitch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = oktangcc.TTEnvironmentSwitch;
@@ -302,6 +447,7 @@
 				086CADA01D5B14AA00030068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
