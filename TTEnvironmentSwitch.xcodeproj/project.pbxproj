@@ -46,7 +46,7 @@
 		086CADAE1D5B156200030068 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
 		086CADAF1D5B156200030068 /* UIView+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HUD.h"; sourceTree = "<group>"; };
 		086CADB01D5B156200030068 /* UIView+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HUD.m"; sourceTree = "<group>"; };
-		086CADB71D5B15BE00030068 /* TTDebugSystemPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDebugSystemPrefix.pch; sourceTree = "<group>"; };
+		086CADB71D5B15BE00030068 /* TTEnvironmentSwitchPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTEnvironmentSwitchPrefix.pch; sourceTree = "<group>"; };
 		18651C76340F71B73281ADF4 /* Pods-TTEnvironmentSwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTEnvironmentSwitch.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTEnvironmentSwitch/Pods-TTEnvironmentSwitch.release.xcconfig"; sourceTree = "<group>"; };
 		96C9DBE098B9EB0F7C4FC9C5 /* Pods-TTEnvironmentSwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTEnvironmentSwitch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTEnvironmentSwitch/Pods-TTEnvironmentSwitch.debug.xcconfig"; sourceTree = "<group>"; };
 		B63AB0C822D4CAFFAA050BEC /* libPods-TTEnvironmentSwitch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTEnvironmentSwitch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,7 +96,7 @@
 				086CAD961D5B14AA00030068 /* Assets.xcassets */,
 				086CAD981D5B14AA00030068 /* LaunchScreen.storyboard */,
 				086CAD9B1D5B14AA00030068 /* Info.plist */,
-				086CADB71D5B15BE00030068 /* TTDebugSystemPrefix.pch */,
+				086CADB71D5B15BE00030068 /* TTEnvironmentSwitchPrefix.pch */,
 				086CAD8A1D5B14A900030068 /* Supporting Files */,
 			);
 			path = TTEnvironmentSwitch;
@@ -406,7 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = TTEnvironmentSwitch/TTDebugSystemPrefix.pch;
+				GCC_PREFIX_HEADER = TTEnvironmentSwitch/TTEnvironmentSwitchPrefix.pch;
 				INFOPLIST_FILE = TTEnvironmentSwitch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = oktangcc.TTEnvironmentSwitch;
@@ -420,7 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = TTEnvironmentSwitch/TTDebugSystemPrefix.pch;
+				GCC_PREFIX_HEADER = TTEnvironmentSwitch/TTEnvironmentSwitchPrefix.pch;
 				INFOPLIST_FILE = TTEnvironmentSwitch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = oktangcc.TTEnvironmentSwitch;

@@ -1,17 +1,17 @@
 //
-//  TTDebugSystemPrefix.pch
+//  TTEnvironmentSwitchPrefix.pch
 //  TTEnvironmentSwitch
 //
 //  Created by TangChi on 16/8/10.
 //  Copyright © 2016年 tangchi. All rights reserved.
 //
 
-#ifndef TTDebugSystemPrefix_pch
-#define TTDebugSystemPrefix_pch
+#ifndef TTEnvironmentSwitchPrefix_pch
+#define TTEnvironmentSwitchPrefix_pch
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 #import "TTDebugMacroDefinition.h"
 #import "Masonry.h"
 
-#endif /* TTDebugSystemPrefix_pch */
+#endif /* TTEnvironmentSwitchPrefix_pch */
