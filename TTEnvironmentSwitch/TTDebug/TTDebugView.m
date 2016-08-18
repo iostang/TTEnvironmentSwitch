@@ -349,6 +349,7 @@ CGPoint beginPoint;
     
     self.highlighted = YES;
     if (![objc_getAssociatedObject(self, DragEnableKey) boolValue]) {
+        [super touchesBegan:touches withEvent:event];
         return;
     }
     
@@ -361,6 +362,7 @@ CGPoint beginPoint;
     
     self.highlighted = NO;
     if (![objc_getAssociatedObject(self, DragEnableKey) boolValue]) {
+        [super touchesMoved:touches withEvent:event];
         return;
     }
     
